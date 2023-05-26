@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --font1: 'Montserrat', sans-serif;
+    --branco: #FFFFFF;
+    --preto: #060606;
+    --rosa: #f0057e;
+
+}
+
+
+body{
+    background-image:url(../Assets/Backgronud.png) ;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+}
+
+
+.posicionamento_header{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font1);
+    font-size: 20px;
+    color: var(--branco);
+    /* border-color: var(--rosa); */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    /* text-shadow: 1px 1px rgb(252, 9, 9); */
+}
